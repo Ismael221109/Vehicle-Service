@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle-Service | Automóviles en Alquiler</title>
+  <link rel="stylesheet" href="css/alquiler2.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">Vehicle<span class="accent">-Service</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="quienes-somos2.html">Quiénes Somos</a></li>
+      <li class="dropdown">
+        <a href="#" class="active">Servicios ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="deportivos2.html">Vehículos Deportivos</a></li>
+          <li><a href="carga-pesada2.html">Carga Pesada</a></li>
+          <li><a href="mercancias2.html">Transporte de Mercancía</a></li>
+          <li><a href="microbuses2.html">Microbuses</a></li>
+          <li><a href="maquinarias2.html">Maquinarias Especializadas</a></li>
+          <li><a href="alquiler2.html">Automóviles en Alquiler</a></li>
+          <li><a href="alimentos2.html">Transporte de Alimentos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="page-header">
+    <h1>🚗 Automóviles<br>en Alquiler</h1>
+    <p>Encuentra el vehículo perfecto para cada momento</p>
+  </header>
+
+  <!-- GALERÍA TOP 2 IMÁGENES -->
+  <section class="galeria-top">
+    <div class="gal-card">
+      <img src="imagenes/alquiler1.jpg" alt="Sedan">
+      <div class="gal-info">
+        <h3>Sedán Confort</h3>
+        <span class="precio-badge">$45 / día</span>
+      </div>
+    </div>
+    <div class="gal-card">
+      <img src="imagenes/alquiler2.jpg" alt="SUV">
+      <div class="gal-info">
+        <h3>SUV Familiar</h3>
+        <span class="precio-badge">$70 / día</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABLA EN EL MEDIO -->
+  <section class="tabla-section">
+    <h2 class="tabla-titulo">Catálogo Completo</h2>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Foto</th>
+            <th>Modelo</th>
+            <th>Categoría</th>
+            <th>Pasajeros</th>
+            <th>Transmisión</th>
+            <th>Precio / Día</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="imagenes/alquiler1.jpg" alt="Corolla" class="table-img"></td>
+            <td>Toyota Corolla</td>
+            <td>Sedán</td>
+            <td>5</td>
+            <td>Automático</td>
+            <td class="precio-col">$45</td>
+            <td><button class="btn-accion">Alquilar</button></td>
+          </tr>
+          <tr>
+            <td><img src="imagenes/alquiler2.jpg" alt="Tucson" class="table-img"></td>
+            <td>Hyundai Tucson</td>
+            <td>SUV</td>
+            <td>7</td>
+            <td>Automático</td>
+            <td class="precio-col">$70</td>
+            <td><button class="btn-accion">Alquilar</button></td>
+          </tr>
+          <tr>
+            <td><img src="imagenes/alquiler3.jpg" alt="Ranger" class="table-img"></td>
+            <td>Ford Ranger 4x4</td>
+            <td>Pickup</td>
+            <td>5</td>
+            <td>Manual</td>
+            <td class="precio-col">$55</td>
+            <td><button class="btn-accion">Alquilar</button></td>
+          </tr>
+          <tr>
+            <td><img src="imagenes/alquiler4.jpg" alt="Mercedes" class="table-img"></td>
+            <td>Mercedes C-Class</td>
+            <td>Ejecutivo</td>
+            <td>4</td>
+            <td>Automático</td>
+            <td class="precio-col">$90</td>
+            <td><button class="btn-accion">Alquilar</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="btn-fila">
+      <button class="btn-morado" onclick="window.location='index.html'">Volver al Inicio</button>
+      <button class="btn-lila" onclick="alert('¡Solicitud enviada!')">Más Vehículos</button>
+    </div>
+  </section>
+
+  <!-- GALERÍA BOTTOM 2 IMÁGENES -->
+  <section class="galeria-bottom">
+    <div class="gal-card">
+      <img src="imagenes/alquiler3.jpg" alt="Pickup">
+      <div class="gal-info">
+        <h3>Pickup 4x4</h3>
+        <span class="precio-badge">$55 / día</span>
+      </div>
+    </div>
+    <div class="gal-card">
+      <img src="imagenes/alquiler4.jpg" alt="Ejecutivo">
+      <div class="gal-info">
+        <h3>Ejecutivo Premium</h3>
+        <span class="precio-badge">$90 / día</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Vehicle-Service. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

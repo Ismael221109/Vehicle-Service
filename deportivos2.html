@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle-Service | Vehículos Deportivos</title>
+  <link rel="stylesheet" href="css/deportivos2.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">Vehicle<span class="accent">-Service</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="quienes-somos2.html">Quiénes Somos</a></li>
+      <li class="dropdown">
+        <a href="#" class="active">Servicios ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="deportivos2.html">Vehículos Deportivos</a></li>
+          <li><a href="carga-pesada2.html">Carga Pesada</a></li>
+          <li><a href="mercancias2.html">Transporte de Mercancía</a></li>
+          <li><a href="microbuses2.html">Microbuses</a></li>
+          <li><a href="maquinarias2.html">Maquinarias Especializadas</a></li>
+          <li><a href="alquiler2.html">Automóviles en Alquiler</a></li>
+          <li><a href="alimentos2.html">Transporte de Alimentos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- TABLA AL INICIO -->
+  <section class="tabla-section">
+    <div class="tabla-titulo">
+      <h2>// ESPECIFICACIONES_FLOTA</h2>
+      <p>Datos técnicos de cada vehículo disponible</p>
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>IMG</th>
+            <th>MODELO</th>
+            <th>HP</th>
+            <th>VEL. MÁX</th>
+            <th>COMBUSTIBLE</th>
+            <th>STATUS</th>
+            <th>CMD</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="https://cimg3.ibsrv.net/cimg/www.themustangsource.com/1600x900_85-1/403/1-412403.jpg" alt="GT" class="table-img"></td>
+            <td>Serie GT-500</td>
+            <td>550 HP</td>
+            <td>280 km/h</td>
+            <td>Premium</td>
+            <td><span class="status on">ONLINE</span></td>
+            <td><button class="btn-neon">EXEC</button></td>
+          </tr>
+          <tr>
+            <td><img src="https://cdn.motor1.com/images/mgl/pqGxr/s1/mazda3-tcr-race-car.jpg" alt="Turbo" class="table-img"></td>
+            <td>Turbo Racing X</td>
+            <td>480 HP</td>
+            <td>265 km/h</td>
+            <td>Premium</td>
+            <td><span class="status on">ONLINE</span></td>
+            <td><button class="btn-neon">EXEC</button></td>
+          </tr>
+          <tr>
+            <td><img src="https://live.staticflickr.com/65535/51111579538_f8eecd4c83_b.jpg" alt="Coupe" class="table-img"></td>
+            <td>Coupé Ventura</td>
+            <td>420 HP</td>
+            <td>250 km/h</td>
+            <td>Regular</td>
+            <td><span class="status off">OFFLINE</span></td>
+            <td><button class="btn-neon" disabled>N/A</button></td>
+          </tr>
+          <tr>
+            <td><img src="https://www.classicandsportscar.com/sites/default/files/styles/slideshow_slide/public/cloned-files/30-nsu-spider_2.jpg?itok=6AJA8oV0" alt="Spider" class="table-img"></td>
+            <td>Spider Classic</td>
+            <td>380 HP</td>
+            <td>235 km/h</td>
+            <td>Regular</td>
+            <td><span class="status on">ONLINE</span></td>
+            <td><button class="btn-neon">EXEC</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="btn-row">
+      <button class="btn-cyan" onclick="window.location='index.html'">← Volver</button>
+      <button class="btn-pink" onclick="alert('¡Solicitud enviada!')">Solicitar Cotización</button>
+    </div>
+  </section>
+
+  <!-- HEADER DESPUÉS DE LA TABLA -->
+  <header class="page-header">
+    <h1>Vehículos<br><span class="neon-text">Deportivos</span></h1>
+    <p>Potencia · Velocidad · Adrenalina</p>
+  </header>
+
+  <!-- GALERÍA AL FINAL -->
+  <section class="galeria-section">
+    <h2 class="galeria-titulo">— GALERÍA —</h2>
+    <div class="galeria-grid">
+      <div class="img-card">
+        <img src="https://cimg3.ibsrv.net/cimg/www.themustangsource.com/1600x900_85-1/403/1-412403.jpg" alt="GT" class="galeria-img">
+        <div class="img-overlay">
+          <span>Serie GT-500</span>
+          <span class="hp-tag">550 HP</span>
+        </div>
+      </div>
+      <div class="img-card grande">
+        <img src="https://cdn.motor1.com/images/mgl/pqGxr/s1/mazda3-tcr-race-car.jpg" alt="Turbo" class="galeria-img">
+        <div class="img-overlay">
+          <span>Turbo Racing X</span>
+          <span class="hp-tag">480 HP</span>
+        </div>
+      </div>
+      <div class="img-card">
+        <img src="https://live.staticflickr.com/65535/51111579538_f8eecd4c83_b.jpg" alt="Coupe" class="galeria-img">
+        <div class="img-overlay">
+          <span>Coupé Ventura</span>
+          <span class="hp-tag">420 HP</span>
+        </div>
+      </div>
+      <div class="img-card">
+        <img src="https://www.classicandsportscar.com/sites/default/files/styles/slideshow_slide/public/cloned-files/30-nsu-spider_2.jpg?itok=6AJA8oV0 " alt="Spider" class="galeria-img">
+        <div class="img-overlay">
+          <span>Spider Classic</span>
+          <span class="hp-tag">380 HP</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Vehicle-Service. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

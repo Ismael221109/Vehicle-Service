@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle-Service | Maquinarias Especializadas</title>
+  <link rel="stylesheet" href="css/maquinarias2.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">Vehicle<span class="accent">-Service</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="quienes-somos2.html">Quiénes Somos</a></li>
+      <li class="dropdown">
+        <a href="#" class="active">Servicios ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="deportivos2.html">Vehículos Deportivos</a></li>
+          <li><a href="carga-pesada2.html">Carga Pesada</a></li>
+          <li><a href="mercancias2.html">Transporte de Mercancía</a></li>
+          <li><a href="microbuses2.html">Microbuses</a></li>
+          <li><a href="maquinarias2.html">Maquinarias Especializadas</a></li>
+          <li><a href="alquiler2.html">Automóviles en Alquiler</a></li>
+          <li><a href="alimentos2.html">Transporte de Alimentos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="page-header">
+    <h1>Maquinarias<br><span class="subrayado">Especializadas</span></h1>
+    <p>Equipos certificados para proyectos de gran escala</p>
+  </header>
+
+  <!-- GALERÍA TIPO MOSAICO -->
+  <section class="mosaico">
+    <div class="mosaico-grande">
+      <img src="imagenes/maquina1.jpg" alt="Excavadora">
+      <div class="mosaico-label">Excavadora Hidráulica — 200 HP</div>
+    </div>
+    <div class="mosaico-columna">
+      <div class="mosaico-chico">
+        <img src="imagenes/maquina2.jpg" alt="Grúa">
+        <div class="mosaico-label-mini">Grúa Torre 60T</div>
+      </div>
+      <div class="mosaico-chico">
+        <img src="imagenes/maquina3.jpg" alt="Retro">
+        <div class="mosaico-label-mini">Retroexcavadora</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABLA COMPLETA -->
+  <section class="tabla-section">
+    <div class="tabla-header">
+      <h2>Especificaciones Técnicas Completas</h2>
+    </div>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>Foto</th>
+            <th>Equipo</th>
+            <th>Marca</th>
+            <th>Potencia</th>
+            <th>Capacidad</th>
+            <th>Disponibilidad</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="imagenes/maquina1.jpg" alt="Excavadora" class="table-img"></td>
+            <td>Excavadora Hidráulica</td>
+            <td>Caterpillar</td>
+            <td>200 HP</td>
+            <td>20 ton</td>
+            <td><span class="badge libre">Disponible</span></td>
+            <td><button class="btn-accion">Arrendar</button></td>
+          </tr>
+          <tr>
+            <td><img src="imagenes/maquina2.jpg" alt="Grúa" class="table-img"></td>
+            <td>Grúa Torre</td>
+            <td>Liebherr</td>
+            <td>320 HP</td>
+            <td>60 ton</td>
+            <td><span class="badge libre">Disponible</span></td>
+            <td><button class="btn-accion">Arrendar</button></td>
+          </tr>
+          <tr>
+            <td><img src="imagenes/maquina3.jpg" alt="Retro" class="table-img"></td>
+            <td>Retroexcavadora</td>
+            <td>Komatsu</td>
+            <td>100 HP</td>
+            <td>8 ton</td>
+            <td><span class="badge uso">En uso</span></td>
+            <td><button class="btn-accion" disabled>Ocupado</button></td>
+          </tr>
+          <tr>
+            <td><img src="imagenes/maquina4.jpg" alt="Compactador" class="table-img"></td>
+            <td>Compactador</td>
+            <td>Dynapac</td>
+            <td>130 HP</td>
+            <td>12 ton</td>
+            <td><span class="badge libre">Disponible</span></td>
+            <td><button class="btn-accion">Arrendar</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="btn-fila">
+      <button class="btn-vino" onclick="window.location='index.html'">Volver al Inicio</button>
+      <button class="btn-beige" onclick="alert('¡Solicitud enviada!')">Solicitar Cotización</button>
+    </div>
+  </section>
+
+  <!-- IMAGEN FINAL GRANDE -->
+  <div class="imagen-final">
+    <img src="imagenes/maquina4.jpg" alt="Compactador">
+    <div class="imagen-final-texto">
+      <h3>Compactador Vibratorio</h3>
+      <p>130 HP · 12 toneladas · Disponible ahora</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2024 Vehicle-Service. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

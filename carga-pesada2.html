@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vehicle-Service | Carga Pesada</title>
+  <link rel="stylesheet" href="css/carga-pesada2.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="nav-logo">Vehicle<span class="accent">-Service</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="quienes-somos2.html">Quiénes Somos</a></li>
+      <li class="dropdown">
+        <a href="#" class="active">Servicios ▾</a>
+        <ul class="dropdown-menu">
+          <li><a href="deportivos2.html">Vehículos Deportivos</a></li>
+          <li><a href="carga-pesada2.html">Carga Pesada</a></li>
+          <li><a href="mercancias2.html">Transporte de Mercancía</a></li>
+          <li><a href="microbuses2.html">Microbuses</a></li>
+          <li><a href="maquinarias2.html">Maquinarias Especializadas</a></li>
+          <li><a href="alquiler2.html">Automóviles en Alquiler</a></li>
+          <li><a href="alimentos2.html">Transporte de Alimentos</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="page-header">
+    <div class="header-contenido">
+      <h1>CARGA <span class="naranja">PESADA</span></h1>
+      <p>Transporte industrial · Hasta 40 toneladas · Cobertura nacional</p>
+    </div>
+  </header>
+
+  <!-- GALERÍA HORIZONTAL TIPO TIRA -->
+  <section class="tira-galeria">
+    <div class="tira-item">
+      <img src="https://ruiz-mariscal.com/wp-content/uploads/2023/06/kenworth-menu-1-1024x1024.png" alt="Tracto">
+      <div class="tira-label">Tracto-Camión</div>
+    </div>
+    <div class="tira-item">
+      <img src="https://tool-solutions.com.ar/wp-content/uploads/nota-1-2-1024x547.jpg" alt="Cisterna">
+      <div class="tira-label">Cisterna</div>
+    </div>
+    <div class="tira-item">
+      <img src="https://maquinariaw.com.mx/imagenes/INVOICE/2019/16048/DSCF7784.JPG" alt="Plataforma">
+      <div class="tira-label">Plataforma</div>
+    </div>
+    <div class="tira-item">
+      <img src="https://th.bing.com/th/id/R.b163589206456a09988f4b4d04c86e85?rik=Xo7X%2femErgXO%2bA&riu=http%3a%2f%2fwww.elcolombiano.com%2fdocuments%2f10157%2f0%2f640x299%2f0c0%2f0d0%2fnone%2f11101%2fDRSC%2fvolqueta-expotranscarga-640x280-19052012.jpg&ehk=McbrFqb9FkTDw6T3hu7lNWf%2fR1Ygc6VjW2BHcNGh%2bf8%3d&risl=&pid=ImgRaw&r=0" alt="Volqueta">
+      <div class="tira-label">Volqueta</div>
+    </div>
+  </section>
+
+  <!-- INFO + TABLA LADO A LADO -->
+  <section class="contenido-principal">
+    <div class="info-lateral">
+      <h2>¿Por qué elegirnos?</h2>
+      <ul class="lista-ventajas">
+        <li>✔ Flota moderna certificada</li>
+        <li>✔ Operadores capacitados</li>
+        <li>✔ Seguro de carga incluido</li>
+        <li>✔ GPS en tiempo real</li>
+        <li>✔ Atención 24/7</li>
+        <li>✔ Cobertura nacional</li>
+      </ul>
+      <button class="btn-naranja" onclick="alert('¡Solicitud enviada!')">Solicitar Cotización</button>
+      <button class="btn-gris" onclick="window.location='index.html'">Volver al Inicio</button>
+    </div>
+
+    <div class="tabla-contenedor">
+      <h2 class="tabla-titulo">Catálogo de Vehículos</h2>
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th>Foto</th>
+              <th>Tipo</th>
+              <th>Capacidad</th>
+              <th>Ejes</th>
+              <th>Carga</th>
+              <th>Estado</th>
+              <th>Acción</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img src="https://ruiz-mariscal.com/wp-content/uploads/2023/06/kenworth-menu-1-1024x1024.png" alt="Tracto" class="table-img"></td>
+              <td>Tracto-Camión</td>
+              <td>40 toneladas</td>
+              <td>6 ejes</td>
+              <td>Contenedor</td>
+              <td><span class="badge verde">Disponible</span></td>
+              <td><button class="btn-accion">Contratar</button></td>
+            </tr>
+            <tr>
+              <td><img src="https://tool-solutions.com.ar/wp-content/uploads/nota-1-2-1024x547.jpg" alt="Cisterna" class="table-img"></td>
+              <td>Camión Cisterna</td>
+              <td>30.000 L</td>
+              <td>3 ejes</td>
+              <td>Líquidos</td>
+              <td><span class="badge verde">Disponible</span></td>
+              <td><button class="btn-accion">Contratar</button></td>
+            </tr>
+            <tr>
+              <td><img src="https://maquinariaw.com.mx/imagenes/INVOICE/2019/16048/DSCF7784.JPG" alt="Plataforma" class="table-img"></td>
+              <td>Plataforma Ext.</td>
+              <td>35 toneladas</td>
+              <td>5 ejes</td>
+              <td>Maquinaria</td>
+              <td><span class="badge amarillo">Mantenimiento</span></td>
+              <td><button class="btn-accion" disabled>No disp.</button></td>
+            </tr>
+            <tr>
+              <td><img src="https://th.bing.com/th/id/R.b163589206456a09988f4b4d04c86e85?rik=Xo7X%2femErgXO%2bA&riu=http%3a%2f%2fwww.elcolombiano.com%2fdocuments%2f10157%2f0%2f640x299%2f0c0%2f0d0%2fnone%2f11101%2fDRSC%2fvolqueta-expotranscarga-640x280-19052012.jpg&ehk=McbrFqb9FkTDw6T3hu7lNWf%2fR1Ygc6VjW2BHcNGh%2bf8%3d&risl=&pid=ImgRaw&r=0" alt="Volqueta" class="table-img"></td>
+              <td>Volqueta Industrial</td>
+              <td>25 toneladas</td>
+              <td>3 ejes</td>
+              <td>Áridos</td>
+              <td><span class="badge verde">Disponible</span></td>
+              <td><button class="btn-accion">Contratar</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2024 Vehicle-Service. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
