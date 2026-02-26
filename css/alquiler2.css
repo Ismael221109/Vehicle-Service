@@ -1,0 +1,286 @@
+/* CSS - ALQUILER 2 - Tema Lavanda + Blanco */
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    background-color: #f8f4ff;
+    color: #2a1a4a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #3d1a7a;
+    padding: 0 40px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    border-bottom: 3px solid #b39ddb;
+}
+
+.nav-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    letter-spacing: 1px;
+}
+
+.nav-logo .accent { color: #ce93d8; }
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: #ce93d8;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav-links a:hover { color: #ffffff; }
+.nav-links a.active { color: #ede7f6; }
+
+.dropdown { position: relative; }
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%; left: 0;
+    background-color: #3d1a7a;
+    border-top: 3px solid #ce93d8;
+    list-style: none;
+    padding: 8px 0;
+    min-width: 230px;
+    z-index: 999;
+}
+
+.dropdown:hover .dropdown-menu { display: block; }
+
+.dropdown-menu li a {
+    display: block;
+    padding: 9px 18px;
+    font-size: 13px;
+    color: #ce93d8;
+    text-transform: none;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #b39ddb;
+    color: #2a1a4a;
+}
+
+/* HEADER */
+.page-header {
+    margin-top: 65px;
+    background-color: #4a2090;
+    padding: 65px 40px;
+    text-align: center;
+    border-bottom: 4px solid #b39ddb;
+}
+
+.page-header h1 {
+    font-size: 52px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 12px;
+}
+
+.page-header p {
+    font-size: 15px;
+    color: #ce93d8;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* GALERÍAS */
+.galeria-top, .galeria-bottom {
+    display: flex;
+    background-color: #ede7f6;
+    padding: 30px 40px;
+    gap: 20px;
+}
+
+.galeria-bottom {
+    border-top: 3px solid #b39ddb;
+}
+
+.gal-card {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #d1c4e9;
+}
+
+.gal-card:hover {
+    border-color: #7e57c2;
+}
+
+.gal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.gal-info {
+    padding: 15px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gal-info h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #3d1a7a;
+}
+
+.precio-badge {
+    background-color: #7e57c2;
+    color: #ffffff;
+    padding: 5px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+/* TABLA */
+.tabla-section {
+    padding: 60px 40px;
+    background-color: #ffffff;
+}
+
+.tabla-titulo {
+    font-size: 28px;
+    font-weight: 900;
+    color: #3d1a7a;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #b39ddb;
+    padding-bottom: 10px;
+}
+
+.table-wrapper { overflow-x: auto; }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: #3d1a7a;
+}
+
+thead th {
+    padding: 13px 15px;
+    text-align: left;
+    color: #ede7f6;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tbody tr {
+    border-bottom: 1px solid #e8d5ff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f4ff;
+}
+
+tbody tr:hover {
+    background-color: #ede7f6;
+}
+
+tbody td {
+    padding: 13px 15px;
+    color: #2a1a4a;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.table-img {
+    width: 70px;
+    height: 48px;
+    object-fit: cover;
+    border: 2px solid #b39ddb;
+    border-radius: 6px;
+    display: block;
+}
+
+.precio-col {
+    font-size: 18px;
+    font-weight: 900;
+    color: #7e57c2;
+}
+
+.btn-accion {
+    background-color: #7e57c2;
+    color: #ffffff;
+    border: none;
+    padding: 7px 14px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+
+.btn-accion:hover { background-color: #3d1a7a; }
+
+.btn-fila {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+}
+
+.btn-morado {
+    background-color: #3d1a7a;
+    color: #ffffff;
+    border: none;
+    padding: 13px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-morado:hover { background-color: #4a2090; }
+
+.btn-lila {
+    background-color: #b39ddb;
+    color: #2a1a4a;
+    border: none;
+    padding: 13px 28px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+.btn-lila:hover { background-color: #9575cd; color: #ffffff; }
+
+/* FOOTER */
+.footer {
+    background-color: #2a1a4a;
+    text-align: center;
+    padding: 20px;
+    color: #b39ddb;
+    font-size: 13px;
+}
